@@ -1,0 +1,140 @@
+ 
+ .logo-span{
+    background-color: #0FBF61;
+    color: rgb(255, 255, 255);
+    padding:0 5px;
+    border-radius: 4px;
+ }
+
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navid:hover{
+     color: #0FBF61 !important;
+}
+
+.loading{
+    display: block;
+    height: 100%;
+    width: 100%;
+     position: absolute;
+    top: 0;
+    z-index: 111;
+    background-color: #ffffff;
+    
+}
+.loading svg{
+    margin:45vh auto;
+    width: 100%;
+  
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+/* links  */
+
+
+   ul{
+     display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+ 
+   }
+ 
+   ul  a{
+       text-decoration: none;
+       color:gray ;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius:0 15px 15px 0 ;
+    transition: .3s;
+}
+
+ 
+ul a.ac{
+    color: white;
+    background-color: #0FBF61;
+    
+}
+
+ul a:hover{
+       background-color:#0FBF61;
+       color:rgb(255, 255, 255) ;
+       
+
+   }
+
+
+/* links  */
+
+@media (max-width:450px) {
+ /* links  */
+
+
+ ul{
+    width: 95%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 18px;
+     top: 94%;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px lightslategrey;
+    left: 0;
+    padding: 0 10px;
+  background-color:#0fbf6163;
+  justify-content: center  ;
+   }
+ 
+   ul  a{
+       text-decoration: none;
+       color:rgb(255, 255, 255) ;
+    font-size: 24px;
+ 
+    
+    padding: 3px 15px;
+    border-radius:0;
+    transition: .3s;
+}
+
+ 
+ul a.ac{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    
+}
+
+ul a:hover{
+        color:rgb(56, 54, 54) ; background-color: transparent;
+       
+
+   }
+
+
+/* links  */
+
+    
+} 
+
+

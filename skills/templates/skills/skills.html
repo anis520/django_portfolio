@@ -1,0 +1,69 @@
+
+
+
+
+{% extends 'core/core.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'skills/css/style.css' %}">
+
+{% endblock css %}
+
+{% block content %}
+
+
+  <div class="w-50  mx-auto pb-5">
+     <h3>skills</h3>
+    <h2>My Expertise</h2>
+ 
+
+
+{% if  stu%}
+
+
+
+
+
+  {% for i in stu %}
+       
+
+         <p class='fw-bold mt-2'>{{i.skillName|capfirst}}</p>
+   <div  class="progress ">
+   
+    <div    class="progress-bar bg-same  text-start ps-3 fw-bold" style="width:{{i.skillLength}}%;"  role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{i.skillLength}}%</div>
+  </div>
+
+     
+  {% endfor %} 
+
+
+
+
+{% else %}
+   <h3>No skill available</h3>
+{% endif %}
+  
+
+
+
+   
+ 
+
+ 
+ 
+
+
+ 
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+

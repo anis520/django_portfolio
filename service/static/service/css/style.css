@@ -1,0 +1,78 @@
+.service .my {
+    left: 0;
+    right: 0;
+ 
+    font-size: 22px;
+    font-weight: bold;
+
+    color: #0FBF61;
+
+}
+
+.service .heading{
+    margin: 20px 0;
+}
+
+
+
+
+.service .m{
+
+   padding: 40px;
+    background-color: white;
+ }
+
+.service .m .mid h3{
+    margin: 10px 0;
+    font-weight: bold;transition: .3s;
+}
+
+.service .m .mid p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.548);
+    margin: 15px 0;transition: .3s;
+}
+.See{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;transition: .3s;
+    background-color: #0FBF61;
+    color: white;
+
+}
+
+
+
+.service .m .mid{
+    border-radius: 10px;
+    padding: 20px;  transition: .3s;
+
+ }
+.service .m .mid svg{
+    font-size: 30px;transition: .3s;
+     padding: 20px;
+    border-radius: 50%;
+    border: 3px solid #0FBF61;
+    color: #0FBF61;
+}
+
+
+.service .m:hover .mid{
+    color: white;
+    background-color: #0fbf61cc;
+}
+.service .m:hover p{
+color: white;
+}
+.service .m:hover svg{
+
+ border: 3px solid white;
+ color: white;
+
+
+}
+.service .m:hover .See{
+    background-color: white;
+    color: #0FBF61;
+}

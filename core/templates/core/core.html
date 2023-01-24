@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/core.css' %}">
+    {% block css %}{% endblock css %}
+</head>
+
+  
+
+ 
+
+<body>
+    
+
+
+
+    
+  
+
+
+
+    {% include 'core/navbar.html' %}
+    {% include 'core/links.html' %}
+    {% include 'core/loading.html'%}
+  
+ 
+
+
+
+  
+    {% block content %}
+    
+    
+    
+    
+    
+    {% endblock content %} 
+ 
+  
+
+
+
+<script src="{% static 'core/js/me.js' %}"></script>
+<script src="{% static 'core/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'core/js/all.min.js' %}"></script>
+</body>
+</html>

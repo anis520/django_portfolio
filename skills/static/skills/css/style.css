@@ -1,0 +1,19 @@
+.bg-same{
+    background-color: #0FBF61;
+}
+
+
+h3{
+    background-color: #0fbf6142;
+    color: #0FBF61;
+    display: inline-block;
+    margin-top: 50px;
+    padding:4px 14px;
+    border-radius: 4px;
+}
+
+h2{
+    margin: 30px 0;
+    font-weight: bold;
+}
+

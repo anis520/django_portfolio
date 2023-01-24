@@ -1,0 +1,46 @@
+
+
+{% extends 'core/core.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'me/css/style.css' %}">
+
+{% endblock css %}
+
+{% block content %}
+
+ <div class="row my-5 w-75 mx-auto">
+
+
+   <div class='col-md-5 '>
+        <div class="top mt-5">
+            <h6>
+                Welcome! I'M
+             </h6>
+             <h2>Anisul hoque</h2>
+             <p>Web Developer & Designer</p>
+             <p class='info'>Hello I am Mohammad Anisul Haque I am a web site designer and developer working successfully in marketplace for last two years.</p>
+        </div>
+        <div class="bottom">
+            <div class="hireme">
+                Hire me
+            </div>
+            <div class="explore">Explore</div>
+        </div>
+
+   </div>
+   
+   
+   
+   <div class='col-md-7 ms-3   ms-lg-auto'>
+           <div class="img">
+               <img class='shadow-lg mt-5 ms-lg-5' src="{% static 'me/images/me.jpg' %}" alt="">
+            <div class="rap"></div>
+           </div>
+
+    </div>
+
+
+ </div>
+
+{% endblock content %}
