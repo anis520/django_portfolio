@@ -1,0 +1,69 @@
+
+
+
+
+{% extends 'core/core.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'contact/css/style.css' %}">
+
+{% endblock css %}
+
+{% block content %}
+
+
+  
+
+ <h2>contact me</h2>
+  <div class="line"></div>
+   <div class="contact shadow">
+
+     <div class="row">
+        <div class="col-md-5">
+            <p>Contact me</p>
+            <img src="{% static 'contact/images/contact.png' %}" alt="">
+        
+             <div class="cell">
+                
+                <div class='my-2'>
+                    <i class="fa-solid pe-2 fa-phone"></i><span class='fw-bold' >01852320729</span>  <br>
+
+                </div>
+                <div class='mb-2'>
+
+                    <i class="fa-solid pe-2 fa-envelope"></i><span class='fw-bold'>ahisahad520@gmail.com</span> 
+                </div>
+
+             </div>
+        
+        
+        
+        </div>
+        <div class="col-md-5  con">
+               
+            <form action="">
+
+
+                 <p>Name</p>
+            <input type="text">
+            <p>Email</p>
+            <input type="Email">
+            <p>Text</p>
+             <textarea name="" id="" cols="30" rows="3"></textarea> 
+            
+             <button type="submit">Send</button>
+            
+            </form>
+
+           
+            
+            
+            </div>
+
+</div>
+
+
+
+   </div>
+ 
+{% endblock content %}

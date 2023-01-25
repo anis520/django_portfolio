@@ -36,6 +36,8 @@
 
 .content .body .car img{
     width: 95%;
+    object-fit: cover;
+    height:70%;
     transition: .3s;
         z-index: 111;
         transform: translateY(-20px);

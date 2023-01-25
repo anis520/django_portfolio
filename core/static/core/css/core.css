@@ -92,6 +92,7 @@ ul a:hover{
 
 
  ul{
+    z-index: 2000;
     width: 95%;
     margin: 0 10px;
     display: flex;

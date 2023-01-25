@@ -1,0 +1,81 @@
+h2{
+    text-align: center;
+    color:#0FBF61;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.line{
+    height: 5px;
+    width: 50%;
+    
+    background-color: #0FBF61;
+    margin:20px auto;
+    border-radius: 2px;
+}
+
+
+.contact{
+     width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: auto;
+    border: 2px solid #00000033;
+
+
+
+ }
+ 
+ .contact div div p{
+    font-size: 22px;
+    color:#0FBF61;
+    font-weight: bold;
+    padding: 20px;
+
+ }
+ 
+ .contact div div img{
+    width: 60%;
+    
+    
+    border-radius:10px;
+    background-color: #0fbf615e;
+ }
+
+ .contact div div input,textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0fbf613b;
+    color: rgb(0, 0, 0);
+    width: 90%;
+ }
+
+ .contact div .con{
+    padding-top: 10px;
+ }
+ .contact div .con p{
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0FBF61;
+    margin-top: 10px;
+ }
+
+ .contact div{
+    margin-left: 10px;
+ }
+ textarea{
+    margin-bottom: 10px;
+ }
+ .contact div .con button{
+    background-color:#0FBF61;
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100px;
+ }

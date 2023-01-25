@@ -24,18 +24,28 @@
  
     </div>
 
-    <div class="row body  ">
+    <div class="row body mt-3 mt-md-1 ">
 
+          {% for i in stu %}
           
-
-        <div class="col-md-4 p-4">
+          
+            <div class="col-md-4 p-4">
             <div class="  car shadow">
+
+              {% if i.projectPhoto %}
+              
+              <img src="{{i.projectPhoto}}" alt="">   
+              
+              {% else %}
               <img src="{% static 'projects/images/project 1.png' %}" alt="">   
+
+              {% endif %}
+
                <div class="text">
-                <h2>Ecommers</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing <a href="/">view</a></p>  
+                <h2>{{i.projectName}}</h2>
+                <p>{{i.projectText}}<a href="/">view</a></p>  
                </div>
-                <a href="/">
+                <a href="{{i.projectLink}}">
 
                     <i class="fa-solid fa-eye"></i>
                 </a>
@@ -43,51 +53,15 @@
          </div>
         </div>
         
-        <div class="col-md-4 p-4">
-            <div class="  car shadow">
-              <img src="{% static 'projects/images/project 1.png' %}" alt="">   
-               <div class="text">
-                <h2>Ecommers</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing <a href="/">view</a></p>  
-               </div>
-                <a href="">
+          
+          
+          {% endfor %}
 
-                    <i class="fa-solid fa-eye"></i>
-                </a>
 
-         </div>
-        </div>
-        
-        <div class="col-md-4 p-4">
-            <div class="  car shadow">
-              <img src="{% static 'projects/images/project 1.png' %}" alt="">   
-               <div class="text">
-                <h2>Ecommers</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing <a href="/">view</a></p>  
-               </div>
-                <a href="">
 
-                    <i class="fa-solid fa-eye"></i>
-                </a>
 
-         </div>
-        </div>
-        
-        <div class="col-md-4 p-4">
-            <div class="  car shadow">
-              <img src="{% static 'projects/images/project 1.png' %}" alt="">   
-               <div class="text">
-                <h2>Ecommers</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing <a href="/">view</a></p>  
-               </div>
-                <a href="">
-
-                    <i class="fa-solid fa-eye"></i>
-                </a>
-
-         </div>
-        </div>
-        
+      
+ 
  
  
 
