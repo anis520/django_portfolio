@@ -1,0 +1,87 @@
+
+
+.content .head h3{
+    font-size: 22px;
+     font-weight: bold;
+    
+}
+
+.content .head .div1{
+    height: 10px;
+    width: 30%;
+    margin: 15px 0;
+    background-color: #0FBF61;
+    border-radius: 5px;
+}
+
+
+.content .body .car{
+    position: relative;
+    height: 200px;
+    transition: .3s;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+ }
+
+
+.content .body .car:hover{
+    height: 270px;
+    margin-top: 20px;
+
+   
+
+}
+
+
+
+.content .body .car img{
+    width: 95%;
+    transition: .3s;
+        z-index: 111;
+        transform: translateY(-20px);
+    border-radius: 10px;
+    margin-left: 2%; 
+    
+}
+
+.content .body .car:hover img{
+      width: 95%;     
+     transform: translateY(-60px);
+}
+
+
+.content .body .car .text{
+    position: absolute;
+    margin: 0 10px;
+    z-index: -10;
+    transition: .3s;
+    top: 0;
+}
+
+.content .body .car .text h2{}
+.content .body .car .text p{
+
+    color: #0FBF61;
+
+
+}
+ 
+.content .body .car:hover .text{
+    position: absolute;
+    top: 50%;   
+
+}
+.content .body .car .fa-eye{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(255, 0, 0, 0.212);
+    padding: 10px;       
+    border-radius: 5px;
+    color: #0FBF61;
+    transition: .3s;
+}
+.content .body .car .fa-eye:hover{
+    background-color: #0FBF61;
+    color: white;
+}
