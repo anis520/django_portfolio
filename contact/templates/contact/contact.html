@@ -15,7 +15,18 @@
   
 
  <h2>contact me</h2>
-  <div class="line"></div>
+
+  {% if name and msg%}
+  <div class="alert alert-success w-50 mx-auto alert-dismissible fade show" role="alert">
+    <strong>Hello {{name}} !</strong> {{msg}} 
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  
+ 
+  
+  {% endif %}
+ <div class="line"></div>
    <div class="contact shadow">
 
      <div class="row">
@@ -40,16 +51,18 @@
         
         </div>
         <div class="col-md-5  con">
+
+           
                
-            <form action="">
-
-
-                 <p>Name</p>
+            <form action="" novalidate   method='post'>
+            {% csrf_token %}
+ {{fm.as_p}}
+                  {% comment %} <p>Name</p>
             <input type="text">
             <p>Email</p>
             <input type="Email">
             <p>Text</p>
-             <textarea name="" id="" cols="30" rows="3"></textarea> 
+             <textarea name="" id="" cols="30" rows="3"></textarea>  {% endcomment %}
             
              <button type="submit">Send</button>
             
